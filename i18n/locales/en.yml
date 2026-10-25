@@ -1,0 +1,1184 @@
+site:
+  title: Sattumaa
+  description: Random things
+  policy: Nothing is collected
+
+theme:
+  mode: Mode
+  switch: 'Switch to {theme} mode'
+  light: light
+  dark: dark
+  system: system
+
+auth:
+  login: Login
+  logout: 'Logout ({name})'
+
+pages:
+  win:
+    title: Win
+    description: Retro UI
+  graphs:
+    title: Graphs
+    description: Animated nodes
+  demo:
+    title: Demonstrations
+    description: Animated with CSS & Tailwind
+  edit:
+    title: Edit
+    description: Modify document how you like.
+
+common: 
+  login: Login
+  logout: Logout
+  user: User
+
+error:
+  notFoundTitle: Page not found
+  notFoundBody: The page you are looking for does not exist.
+  notFoundGraph: Graph not found
+  genericTitle: Something went wrong
+  genericBody: Please try again later.
+  back: Back to home
+
+taskbar:
+  start: Start
+  user: User
+  tasks:
+    myComputer: My Computer
+    browser: Browser
+    notepad: Notes
+  apps:
+    browser: Browser
+    media: Media Player
+    documents: My Documents
+    pictures: My Pictures
+    settings: Control Panel
+    notes: Notes
+    messages: Messages
+    explorer: Explorer
+    board: Board
+    clock: Clock
+    paint: Paint
+    home: Home
+    sheet: Sheet
+    kiosk: Kiosk
+    communication: Communication
+    community: Community
+    jitsi: Jitsi
+    music: Music
+  menu:
+    programs: Programs
+    places: Places
+    music: My Music
+    shutDown: Shut down
+    favorites: Favorites
+    favorite: Add to favorites
+    unfavorite: Remove from favorites
+    pin: Pin to taskbar
+    unpin: Unpin from taskbar
+  tabs:
+    home: Start
+  buttons:
+    home: Home
+    volume: Volume
+    mode: Mode
+    language: Language
+    time: Time
+    search: Search
+
+browser:
+  back: Back
+  forward: Forward
+  reload: Reload
+  newTab: New tab
+  closeTab: Close tab
+  minimize: Minimize
+  maximize: Maximize
+  restore: Restore
+  close: Close
+  address: Address
+  pages:
+    home:
+      title: Home
+      heading: Welcome
+      subtitle: Pick a page or type an address
+      search: 'Search or type mock://docs'
+      docs: Documentation
+      notFound: Missing page
+    docs:
+      title: Documentation
+      heading: Documentation
+      body: This is a mock page rendered inside the browser component.
+      points: Fix broken links and earn points
+      votes: Vote on community decisions
+      delegate: Delegate your vote per decision
+    notFound:
+      title: Page not found
+      description: This address does not exist in the mock browser.
+      home: Go home
+
+window:
+  minimize: Minimize
+  maximize: Maximize
+  restore: Restore
+  close: Close
+notes:
+  title: Notes
+  new: New note
+  delete: Delete note
+  search: Search notes
+  untitled: Untitled
+  emptyTitle: No notes found
+  emptyDescription: Create a note to get started.
+  chars: '{n} characters'
+  heading: 'Heading {n}'
+  bullet: Bullet list
+  ordered: Numbered list
+  quote: Quote
+  placeholder: Start writing...
+  welcome: |-
+    # Welcome
+
+    Write notes here. They are saved automatically in this browser.
+
+    - Select text to format it
+    - Use the toolbar for headings and lists
+
+messages:
+  title: Messages
+  search: Search conversations
+  placeholder: Write a message...
+  send: Send
+  typing: '{name} is typing'
+  empty: Select a conversation
+  noMatches: No conversations found
+  seed:
+    ana1: Hi! Did you see the new fix-it queue?
+    ana2: I claimed the broken link in my own post.
+    jorge1: The poll closes tomorrow, have you voted?
+    jorge2: Not yet, doing it now.
+    sara1: Thanks for the recognition!
+  replies:
+    r1: Sounds good!
+    r2: I will take a look.
+    r3: Thanks, noted.
+
+explorer:
+  title: File Explorer
+  description: Browse folders and open files
+  root: My Computer
+  docs: Documents
+  readme: Read me
+  open: Open
+  rename: Rename
+  delete: Delete
+  empty: This folder is empty
+  search: Filter files
+  tree: Folders
+  items: '{count} items'
+  music: Music
+  song: Song
+  clip: Clip
+  pictures: Pictures
+  light: Light
+  dark: Dark
+  trash: Recycle Bin
+  newFolder: New folder
+  newNote: New note
+  restore: Restore
+  deleteForever: Delete forever
+  emptyTrash: Empty bin
+  emptyTitle: Empty the recycle bin?
+  emptyConfirm: Everything in the bin will be deleted permanently.
+  cancel: Cancel
+  trashEmpty: The recycle bin is empty
+  openWith: Open with
+  noApp: No app is associated with this item
+
+player:
+  title: Media Player
+  description: Play audio and video
+  empty: No media loaded
+  play: Play
+  pause: Pause
+  mute: Mute
+  speed: Speed
+  previous: Previous
+  next: Next
+  playlist: Playlist
+  queueEmpty: Nothing queued
+  error: This file could not be played
+
+gallery:
+  title: Pictures
+  description: Browse and arrange your pictures
+  hint: Drag to reorder, double click to open
+  reset: Reset order
+  empty: No pictures yet
+  close: Close
+  previous: Previous
+  next: Next
+  count: '{count} pictures'
+
+settings:
+  title: Settings
+  description: Customize your desktop
+  general: General
+  appearance: Appearance
+  account: Account
+  autoHide: Auto-hide taskbar
+  autoHideHint: Hide the taskbar until the pointer reaches the edge
+  clock24h: 24-hour clock
+  startMenuMode: Start menu style
+  modePopover: Popover
+  modeTabbar: Tab bar
+  language: Language
+  colorMode: Color mode
+  accent: Accent color
+  wallpaper: Wallpaper
+  none: None
+  reset: Reset to defaults
+  musicRepeat: Repeat music
+  musicVolume: Music volume
+
+kanban:
+  title: Board
+  description: Plan and track work
+  todo: To do
+  doing: In progress
+  done: Done
+  add: Add
+  placeholder: New task
+  empty: Nothing here
+  reset: Reset board
+  move: Move
+  delete: Delete
+  moveTo: 'Move to {column}'
+  seedOne: Persisted file system and recycle bin
+  seedTwo: Clear the fix-it queue
+
+music:
+  title: Music
+  seek: Seek
+  previous: Previous
+  next: Next
+  play: Play
+  pause: Pause
+  stop: Stop
+  mute: Mute
+  volume: Volume
+  playlist: Playlist
+  empty: No songs
+  failed: Could not play this file
+  repeat: Repeat
+
+clock:
+  title: Clock
+  tabClock: Clock
+  tabCalendar: Calendar
+  tabStopwatch: Stopwatch
+  tabTimer: Timer
+  tabAlarms: Alarms
+  world: World clocks
+  zone:
+    helsinki: Helsinki
+    london: London
+    newYork: New York
+    tokyo: Tokyo
+  start: Start
+  pause: Pause
+  lap: Lap
+  reset: Reset
+  minutes: min
+  increase: Add a minute
+  decrease: Remove a minute
+  timerDone: Time is up
+  alarmTime: Alarm time
+  alarmLabel: Label
+  addAlarm: Add alarm
+  deleteAlarm: Delete alarm
+  noAlarms: No alarms
+  alarmRinging: Alarm
+
+paint:
+  title: Paint
+  brush: Brush
+  eraser: Eraser
+  size: Brush size
+  undo: Undo
+  clear: Clear canvas
+  save: Save to Pictures
+  download: Download
+  saved: Drawing saved
+  openGallery: Open in Pictures
+  noWebp: This browser cannot encode WebP
+  file: Drawing
+
+geo:
+  construction: Under construction
+  visitors: You are visitor number
+  back: Back to the directory
+  directory:
+    title: GeoTowns
+    intro: Pick a neighborhood and visit a homepage.
+    missing: The page cannot be found. GeoCities was closed down in 2009.
+  guestbook:
+    title: Sign my guestbook
+    open: Sign my guestbook
+    name: Your name
+    message: Your message
+    submit: Sign
+    seed1Name: xXCoolCatXx
+    seed1Text: Great page! Visit mine too!
+    seed2Name: Sarah
+    seed2Text: Love the colors. Added you to my webring!
+  webring:
+    title: Member of the Retro Webring
+    previous: Previous site
+    next: Next site
+  badges:
+    notepad: Made with Notepad
+    netscape: Best viewed in Brave
+    anyBrowser: Any browser
+  sites:
+    ufo:
+      title: Area 51 Alien Page
+      marquee: Welcome to my homepage! The truth is out there!
+      welcome: I have been studying UFOs since 1997. This page has everything you need to know.
+      like1: Roswell, 1947
+      like2: Crop circles
+      like3: The X-Files
+    cats:
+      title: Mr. Whiskers Fan Club
+      marquee: Meow! Welcome to the best cat page on the web!
+      welcome: This is the official home of Mr. Whiskers, the cutest cat in Hollywood.
+      like1: Naps in the sun
+      like2: Cardboard boxes
+      like3: Tuna, always tuna
+    skins:
+      title: Ultimate Skins Archive
+      marquee: Download the hottest skins for your player!
+      welcome: Over 5 skins, all free. Please do not hotlink the files.
+      like1: Metal and chrome skins
+      like2: Anime skins
+      like3: Skins that are too small to read
+
+sheet:
+  title: Sheet
+  formula: Formula bar
+  cell: 'Cell {id}'
+  export: Export CSV
+  reset: Load example
+  clear: Clear all
+  hint: 'Type to edit and press Enter. Formulas start with =, for example =SUM(B2:B4).'
+
+kiosk:
+  title: Paper Kiosk
+  online: Online
+  tabMint: Hint
+  tabVerify: Verify
+  tabReconcile: Reconcile
+  value: Value
+  expiry: Expiry in days
+  expiryHint: 0 means no expiry
+  salt: Community salt
+  mint: Hint paper
+  newKey: New issuer key
+  noPaper: No paper yet. Hint one to see it here.
+  units: units
+  qrNote: Placeholder pattern. Copy the mark to verify.
+  copy: Copy mark
+  copied: Copied
+  paste: Paste the mark here
+  verify: Verify offline
+  useLatest: Use latest paper
+  valid: Valid paper
+  accept: Add to batch
+  serial: Serial
+  worth: Worth
+  note: Derived note
+  expires: Expires
+  never: Never
+  reconcile: Reconcile
+  resetLedger: Reset ledger
+  offlineNotice: You are offline. Verifying still works, reconciling needs the kiosk.
+  batch: Batch
+  emptyBatch: Nothing in the batch
+  results: Results
+  balances: Balances
+  bearer: Bearer instrument. Whoever holds this paper can spend it.
+  saltLabel: Salt
+  keyLabel: Issuer key
+  merchants:
+    shopA: Farm
+    shopB: Bakery
+  reasons:
+    expired: This paper has expired
+    malformed: This is not a valid mark
+    signature: The signature does not match the issuer key
+  status:
+    credited: Credited
+    double-spend: Double spend
+    expired: Expired
+    invalid: Invalid
+  tabNotes: Notes
+  notes:
+    writeTitle: Attach a secret note
+    readTitle: Read a secret note
+    serial: Serial from the paper
+    placeholder: Write a message for whoever holds this paper
+    attach: Lock and attach
+    read: Read once
+    attached:
+      ok: 'Note locked. It can be read once within {days} days.'
+      exists: A note is already attached to this serial
+      invalid: That is not a valid serial
+    readFailed:
+      gone: No note found. It was already read or has expired.
+      invalid: That is not a valid serial
+    deleted: Deleted from the kiosk
+    serverTitle: What the kiosk sees
+    serverHint: Only a hash, ciphertext and an expiry. No serial, no key, no text.
+    serverEmpty: Nothing stored
+
+communication:
+  title: Communication
+  description: Pick a channel to talk with the community.
+  copy: Copy link
+  copied: Link copied
+  empty: No channels configured
+  channels:
+    github: Discussions and issues
+    jitsi: Video meetings
+    telegram: Group chat
+    signal: Private group chat
+  names:
+    github: GitHub
+    jitsi: Jitsi
+    telegram: Telegram
+    signal: Signal
+  openApp: Open here
+  openLink: Open in new tab
+
+jitsi:
+  title: Video meeting
+  room: Room
+  name: Display name
+  namePlaceholder: Your name
+  audio: Start with microphone on
+  video: Start with camera on
+  join: Join
+  leave: Leave
+  random: Random room
+  copy: Copy invite link
+  copied: Invite link copied
+  external: Open in new tab
+
+run:
+  title: Run
+  placeholder: Type an app or command...
+  apps: Apps
+  language: Language
+  running: Running
+
+copy:
+  page: Copy page
+  markdownLink: Copy Markdown link
+  viewMarkdown: View as Markdown
+  copied: Copied to clipboard
+  openMenu: Open copy actions menu
+  print: Print
+  edit: Edit
+  markdownDl: Download .md
+  clear: Clear
+
+graphs:
+  title: Graphs
+  open: Open
+  empty: No graphs yet
+  fallback:
+    title: Not available in your language
+    description: Showing the English version instead.
+
+persona:
+  names:
+    new: New user (week 1)
+    casual: Casual user (month 1)
+    power: Power user (month 3)
+    catmin: Catmin
+  cards:
+    post: New post
+    events: Events
+    files: Files
+    team: Team
+    stats: Stats
+    inbox: Inbox
+    tasks: Tasks
+    notes: Notes
+    links: Links
+    search: Search
+  advanced:
+    more: More
+    less: Less
+    api: API keys
+    webhooks: Webhooks
+    audit: Audit log
+  editor:
+    title: Editor
+    hint: 'Press {key} then type {command}'
+    placeholder: Write something...
+  notifications:
+    title: Notifications
+    toast: '{count} new notification | {count} new notifications'
+    label: 'no notifications | {count} notification | {count} notifications'
+    empty: You are all caught up
+    hint: 'Press {key} then notifications'
+    types:
+      error: Alerts
+      warning: Warnings
+      info: Updates
+      success: Done
+    items:
+      deploy: 'Deploy of {name} failed'
+      payment: 'Payment from {name} was declined'
+      quota: 'Storage is {name} full'
+      expiry: 'Your {name} plan expires soon'
+      release: 'Version {name} is out'
+      invite: '{name} invited you to a project'
+      backup: 'Backup of {name} completed'
+      import: 'Import of {name} finished'
+    markAll: Mark all read
+  summary: '{count} card shown | {count} cards shown'
+
+workflow:
+  title: 'Workflow: {name}'
+  active: Active
+  inactive: Inactive
+  trigger:
+    when: When
+    memberJoins: Member joins community
+  steps:
+    dm: Send DM
+    wait: Wait
+    branch: Branch
+    loop: Loop
+  wait: '{count} hour | {count} hours'
+  branch:
+    if: If
+    then: Then
+    else: Otherwise
+  loop:
+    each: For each space the member joined
+  actions:
+    edit: Edit
+    done: Done
+    duplicate: Duplicate
+    activate: Activate
+    deactivate: Deactivate
+    delete: Delete
+  stats:
+    runs: 'Runs: {count}'
+    last: 'Last: {time}'
+    failures: 'Failures: {count}'
+  add: Add step
+  insertVariable: Insert variable
+  dragHint: Drag steps to reorder
+  placeholder: Write a message...
+  duplicated: Workflow duplicated
+  deleted: Workflow deleted
+  sample:
+    name: Welcome sequence
+    intro: 'Hey {name}, here is a quick intro'
+    spaceWelcome: 'Welcome to {space}!'
+    live: 'Your intro is live → {post}'
+    voice: Want to join a voice room?
+    advanced: Check out the advanced channels
+
+demo:
+  tabs:
+    workflow: Workflow
+    chart: Charts
+    persona: Personas
+    home: Home
+    profile: Profile
+    various: Various
+  hero:
+    headline: CSS
+    title: Interfaces that adapt to your users
+    description: Explore a workflow builder and persona-driven layouts, fully translated in English and Finnish.
+    workflow: Open workflow builder
+    persona: See personas
+    cards:
+      workflow:
+        title: Workflow builder
+        description: Drag, branch and loop steps to automate welcome sequences.
+      chart:
+        title: Charts
+        description: Data visualized with tooltips.
+      persona:
+        title: Personas
+        description: See how density, labels and notifications adapt as users grow.
+      profile:
+        title: Voice and reputation
+        description: Tune tone, media and moderation, and see reputation scores at a glance.
+      various: 
+        title: Various
+        description: Mixed bag of components with animations and improvements.
+      tools: 
+        title: Tools
+        description: Some forms and tools to do things faster.
+  various:
+    inputs: Inputs
+    controls: Controls
+    motion: Moving
+    showcase: Scrolling
+    tools: Tools
+    crypto: Crypto
+
+profile:
+  title: Voice and reputation
+  formality:
+    label: Formality
+    casual: Casual
+    academic: Academic
+    tiers:
+      casual: Casual tone
+      balanced: Balanced tone
+      formal: Formal tone
+  media:
+    label: Preferred media
+    text: Text
+    image: Image
+    video: Video
+    mixed: Mixed
+  cadence:
+    label: Posting cadence
+    hourly: Hourly
+    daily: Daily
+    weekly: Weekly
+  moderation:
+    label: Moderation style
+    permissive: Permissive
+    balanced: Balanced
+    strict: Strict
+  language:
+    label: Language
+  reputation:
+    title: Reputation
+    overall: 'Overall: {score}'
+    helpfulness: Helpfulness
+    consistency: Consistency
+    crossSpace: Cross-space activity
+    moderation: Moderation
+  snapshot: Profile snapshot
+  reset: Reset
+
+chart:
+  visitors: Visitors
+  visitorsByBrowser: Visitors by browser
+  freedom: Freedom
+  bureaucracy: Bureaucracy
+  balance: Balance
+  freedomVsBureaucracy: Freedom and bureaucracy
+  months:
+    january: January
+    february: February
+    march: March
+    april: April
+    may: May
+    june: June
+  visitorsAgainstTarget: Visitors against target
+  desktop: Desktop
+  mobile: Mobile
+  visitorsByDevice: Visitors by device
+
+tools:
+  slider: Volume
+
+swipe:
+  delete: Delete
+  listItem: List item
+  release: 'Release to {action}'
+  revealed: '{count} actions revealed'
+  actions: '{count} action | {count} actions'
+  archive: Archive
+
+todo:
+  ship: Ship the build
+  review: Review the pull request
+  deploy: Deploy to production
+  remaining: '{count} task left | {count} tasks left'
+
+sling:
+  send: Send
+  hint: Press Enter to send, or drag away and release.
+
+refineFrame:
+  queued: Queued
+  generating: Generating
+  refining: Refining
+  complete: Ready
+  error: Failed
+  retry: Retry
+
+warmRating:
+  label: Rating
+  item: '{n} of {count}'
+  itemLabel: '{n} of {count}, {label}'
+  poor: Poor
+  fair: Fair
+  good: Good
+  great: Great
+  superb: Superb
+
+warmDial:
+  label: Level
+
+pinSlots:
+  label: One-time code
+  accepted: Code accepted
+  progress: '{count} of {length} digits entered'
+  successTitle: Code accepted
+  successBody: You are verified.
+  errorTitle: Invalid code
+  errorBody: Check the digits and try again.
+
+branchMenu:
+  gettingStarted: Getting started
+  installation: Installation
+  quickStart: Quick start
+  configuration: Configuration
+  theming: Theming
+  components: Components
+  buttons: Buttons
+  typography: Typography
+  overlays: Overlays
+  toasts: Toasts
+
+infiniteSpiral:
+  label: Infinite spiral gallery
+  image: 'Spiral image {n}'
+
+editor:
+  placeholder: Write, type / for commands...
+  heading: 'Heading {level}'
+  headings: Headings
+  lists: Lists
+  undo: Undo
+  redo: Redo
+  bulletList: Bullet list
+  orderedList: Ordered list
+  blockquote: Blockquote
+  codeBlock: Code block
+  divider: Divider
+  paragraph: Paragraph
+  bold: Bold
+  italic: Italic
+  underline: Underline
+  strike: Strikethrough
+  code: Code
+  link: Link
+  image: Image
+  textAlign: Text align
+  align:
+    left: Align left
+    center: Align center
+    right: Align right
+    justify: Justify
+  download: Download .md
+  mention: Mention
+  emoji: Emoji
+  suggestion:
+    style: Style
+    insert: Insert
+  initialContent: 'Try out different commands, like /. Drag sections or select text.'
+  filename: document.md
+  components: Insert component
+  mdc:
+    chart: Chart
+    timeline: Timeline
+    progressGroup: Progress group
+
+bookmarks:
+  available: Bookmarks
+  favorites: Favorites
+  search: Search bookmarks...
+  searchFavorites: Search favorites...
+  unsorted: Unsorted
+  add: Add to favorites
+  remove: Remove from favorites
+  emptySource: No bookmarks found
+  emptyFavorites: No favorites yet
+
+task:
+  badge: Task Manager
+  title: Detail Task Overview
+  subtitle: Keep your task aligned with team priorities and deliverables.
+  defaultTitle: Edit Design System
+  defaultDescription: The goal is to update the current design system with the latest components and styles. This includes reviewing existing elements, identifying areas for improvement, and implementing changes to ensure consistency and usability across all platforms.
+  fields:
+    title: Title Task
+    titleHelp: Keep it short and goal oriented.
+    priority: Priority
+    assign: Assign Task To
+    team: Team
+    description: Description
+    descriptionLabel: Task description
+  priority:
+    high: High
+    highHelp: Requires immediate focus and dedicated resources
+    medium: Medium
+    mediumHelp: Important but not blocking other work
+    low: Low
+    lowHelp: Nice-to-have improvements to schedule later
+  roles:
+    designer: Product Designer
+    manager: Design Manager
+    researcher: UX Researcher
+    owner: Product Owner
+    engineer: UI Engineer
+  toolbar:
+    bold: Bold
+    italic: Italic
+    underline: Underline
+    bullets: Bullet list
+    numbers: Numbered list
+  actions:
+    addPerson: Add another person
+    removePerson: Remove {name} from this task
+    reset: Reset
+    resetHint: Need to start over?
+    save: Save Changes
+    saving: Saving...
+    saved: Saved!
+  reminder:
+    title: Reminder Task
+    on: We will notify the assignees 24 hours before the due date.
+    off: Enable reminders to keep everyone on track.
+  counter: '{remaining} / {max}'
+
+resume:
+  edit: Edit
+  done: Done
+  reset: Reset
+  downloadJson: Download JSON
+  downloadPdf: Download PDF
+  contact: Contact
+  stack: Stack
+  education: Education
+  about: About
+  experience: Experience
+  projects: Projects
+  fields:
+    name: Name
+    role: Role
+    website: Website
+    location: Location
+    degree: Degree
+    school: School
+    period: Period
+    company: Company
+    title: Title
+    description: Description
+    bullets: One achievement per line
+    stars: Stars
+    url: Link
+  stackHint: Press enter to add a skill
+  addJob: Add experience
+  addProject: Add project
+  remove: Remove
+  newJob: New role
+  newProject: New project
+  data:
+    role: Freedom Engineer
+    location: Somewhere
+    education:
+      degree: Computer Coding
+      school: University of Life
+      period: 2016 - 2026
+    about: Product engineer focused on building accessible, pixel-perfect user interfaces. Currently designing systems at Vercel. Passionate about web performance and developer experience.
+    experience:
+      - role: Frontend Designer
+        period: 2022 - Present
+        description:
+          - Led the migration to Nitro App Router, improving load times by 35%.
+          - Architected the internal component library used by 50+ engineers.
+      - role: Software Engineer
+        period: 2020 - 2022
+        description:
+          - Built the new checkout experience, increasing conversion by 12%.
+          - Implemented automated accessibility testing pipelines.
+    projects:
+      - title: Cat UI
+        desc: Nuxt component library inspired by Reka UI design system.
+      - title: Cat Co
+        desc: Interactive community platform built with Nuxt UI.
+
+brand:
+  title: Make it yours
+  subtitle: Add a logo and pick an accent color for your thing.
+  preview: Preview
+  save: Save the thing
+  saved: Thing saved
+  fallbackName: Your thing
+  meta: 'Free · {count} members'
+  newProject: New project
+  fields:
+    name: Display name
+    namePlaceholder: Cat Inc.
+    logo: Logo
+    accent: Accent color
+  upload:
+    label: Click to upload or drag a logo here
+    description: PNG, JPG or SVG, up to 2 MB
+  errors:
+    notImage: Please choose an image file
+    tooLarge: That image is larger than 2 MB
+  colors:
+    primary: Primary
+    secondary: Secondary
+    success: Success
+    info: Info
+    warning: Warning
+    error: Error
+  quickActions: Quick actions
+  invite: Invite
+  connect: Connect
+  preferences: Preferences
+
+team:
+  title: Team members
+  description: Manage who has access to this workspace and what they can do.
+  open: Team members
+  invite: Invite member
+  inviteHint: Invite dialog
+  search: Search members
+  empty: No members found.
+  removed: Member removed
+  reminderSent: 'Reminder sent to {name}'
+  permissionsHint: Permissions
+  roleFor: 'Role for {name}'
+  actionsFor: 'Actions for {name}'
+  columns:
+    name: Name
+    status: Status
+    role: Role
+  status:
+    active: Active
+    invited: Invited
+  roles:
+    owner: Owner
+    admin: Admin
+    member: Member
+    viewer: Viewer
+  actions:
+    resend: Resend invite
+    permissions: Permissions
+    remove: Remove
+
+spective:
+  title: Retrospection
+  open: Retrospective
+  votesLeft: 'no votes left | 1 vote left | {count} votes left'
+  resetVotes: Reset my votes
+  outOfVotes: You are out of votes. Remove one to vote again.
+  addNote: Add a note
+  addNoteTo: 'Add a note to {column}'
+  markDone: 'Mark done: {text}'
+  vote: 'Vote for {text}'
+  unvote: 'Remove your vote from {text}'
+  columns:
+    good: Went well
+    bad: To improve
+    actions: Action items
+  notes:
+    pairing: Pairing on the checklist sped things up
+    demos: Demos kept everyone aligned
+    requests: Too many surprise requests mid sprint
+    staging: Staging was flaky for two days
+    intake: Agree a request intake process
+    healthCheck: Add a staging health check
+
+chakra:
+  title: Chakra energy
+  description: Current energy level of each of the seven chakras.
+  ariaLabel: Chakra energy rose chart
+  ariaDescription: A rose chart showing the energy level, from 0 to 9, of the seven chakras.
+  items:
+    root:
+      name: Muladhara
+      label: Root
+    sacral:
+      name: Svadhisthana
+      label: Sacral
+    solarPlexus:
+      name: Manipura
+      label: Solar Plexus
+    heart:
+      name: Anahata
+      label: Heart
+    throat:
+      name: Vishuddha
+      label: Throat
+    thirdEye:
+      name: Ajna
+      label: Third Eye
+    crown:
+      name: Sahasrara
+      label: Crown
+
+funnel:
+  title: Sales funnel
+  description: How visitors become customers.
+  ariaLabel: Sales conversion funnel
+  stages:
+    visitors: Visitors
+    leads: Leads
+    qualified: Qualified
+    proposals: Proposals
+    customers: Customers
+  ofVisitors: of visitors
+
+keyboard:
+  ariaLabel: Keyboard
+  platforms:
+    mac: Mac
+    windows: Windows
+  layouts:
+    en: English
+    fi: Suomi
+  keys:
+    esc: esc
+    tab: tab
+    capsLock: caps lock
+    shift: shift
+    return: return
+    enter: enter
+    delete: delete
+    backspace: backspace
+    del: del
+    control: control
+    option: option
+    command: command
+    ctrl: ctrl
+    alt: alt
+    altGr: alt gr
+    left: Left arrow
+    right: Right arrow
+    up: Up arrow
+    down: Down arrow
+
+mood:
+  title: How are you feeling today?
+  description: Rate each feeling from 0 to 10.
+  save: Save today
+  reset: Reset
+  saved: Today's mood saved
+  history: Last 7 days
+  historyAria: Line chart of feelings over the last 7 days
+  emptyTitle: Not enough data yet
+  emptyDescription: Save at least two days to see your history.
+
+feelings:
+  title: Feelings radar
+  description: How I am feeling today, from 0 to 10.
+  ariaLabel: Radar chart of current feelings
+  footer: Mostly love and joy today
+  items:
+    joy: Joy
+    calm: Calm
+    love: Love
+    energy: Energy
+    hope: Hope
+    sadness: Sadness
+    anger: Anger
+    anxiety: Anxiety
+
+localFile:
+  open: Open file
+  save: Save
+  saveAs: Save as
+  opened: 'Opened {name}'
+  saved: Saved to file
+  error: Could not read or write the file
+  invalid: Invalid file
+  title: File demo
+  description: Edit the notes, then save them to a real file or open one from disk.
+  placeholder: New note
+  add: Add
+  remove: Remove note
+  sample1: Try saving this list to a file
+  sample2: Open the file again later
+  emptyTitle: No notes yet
+  emptyDescription: Add a note above, or open a file.
+  preview: Live JSON
+  
+authenticator:
+  title: Authenticator
+  description: One time codes, encrypted and stored only on this device.
+  lock: Lock
+  passphrase: Passphrase
+  confirm: Confirm passphrase
+  create: Create vault
+  unlock: Unlock
+  noRecovery: There is no recovery. If you forget the passphrase, the vault cannot be opened.
+  passMismatch: Use at least 8 characters and make both entries match
+  wrongPass: Wrong passphrase
+  badUri: Could not read this link
+  badSecret: This secret is not valid
+  copied: Code copied
+  copy: Copy code
+  invalid: Invalid vault file
+  add: Add account
+  addTitle: New account
+  save: Save
+  cancel: Cancel
+  remove: Remove account
+  uri: Setup link
+  uriHint: Optional, fills the fields below
+  issuer: Service
+  account: Account
+  secret: Secret key
+  period: Period
+  digits: Digits
+  algorithm: Algorithm
+  emptyTitle: No accounts yet
+  emptyDescription: Add an account using a setup link or a secret key.
+
+chat:
+  ask: Describe your situation.
+  appealPrompt: You may appeal. State your grounds.
+  denied: 'Application denied. Reason: {reason}'
+  appealDenied: 'Appeal denied. Reason: {reason}'
+  placeholder: Paste here
+  restart: Start over
+  hint: Ask your LLM for 200 words, then paste them here.
+  verdict: 'Verdict: denied (p={p}). The distribution has one mode.'
+  tokens: reviewing the submission pursuant to section hereinafter confidence notwithstanding plausible structured therefore
+
+schrodinger:
+  label: Write something
+  placeholder: Type one character
+  state:
+    static: Static page
+    platform: DSA platform
+    former: Former platform
+  hint:
+    static: No obligations. Just HTML.
+    platform: A human wrote something on your page. You are now a platform.
+    former: The text is gone. The obligations are not.
+  retention:
+    title: Records must be kept
+    description: Deleting the content does not delete the duty. Keep your records for 6 months.
+  vlop: Very large platform
+  lifetime: 'Obligations triggered {count}'
+  log: 'You were a platform for {seconds} seconds'
+  followup: 'Review {depth} of {name}'
+  obligations:
+    tos: Terms of service
+    complaint: Complaint mechanism
+    report: Transparency report
+    notice: Notice and action procedure
+    audit: Independent audit
+    risk: Systemic risk assessment

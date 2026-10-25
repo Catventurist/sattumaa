@@ -1,0 +1,1185 @@
+site:
+  title: Sattumaa
+  description: Satunnaisia juttuja
+  policy: Ei kerätä mitään
+
+theme:
+  mode: Tila
+  switch: 'Vaihda {theme} tilaan'
+  light: vaaleaan
+  dark: tummaan
+  system: järjestelmän
+
+auth:
+  login: Kirjaudu
+  logout: 'Kirjaa ulos ({name})'
+
+pages:
+  win:
+    title: Win
+    description: Retro-käyttis
+  graphs:
+    title: Graafeja
+    description: Animoituja laatikoita
+  demo:
+    title: Esittelyssä
+    description: CSS & Tailwind-animaatioita
+  edit:
+    title: Muokkaile
+    description: Kokeile mihin muokkain kykenee.
+
+common: 
+  login: Sisäänkirjaus
+  logout: Uloskirjaus
+  user: Käyttäjä
+
+taskbar:
+  start: Käynnistä
+  user: Käyttäjä
+  tasks:
+    myComputer: Oma tietokone
+    browser: Selain
+    notepad: Muistio
+  apps:
+    browser: Selain
+    media: Mediasoitin
+    documents: Omat tiedostot
+    pictures: Omat kuvat
+    settings: Asetukset
+    notes: Muistio
+    messages: Viestit
+    explorer: Tiedostot
+    board: Teot
+    clock: Aika
+    paint: Piirros
+    home: Koti
+    sheet: Taulukko
+    kiosk: Kioski
+    communication: Kommunikaatio
+    community: Yhteisö
+    jitsi: Jitsi
+    music: Musiikki
+  menu:
+    programs: Ohjelmat
+    places: Paikat
+    music: Oma musiikki
+    shutDown: Sammuta
+    favorites: Suosikit
+    favorite: Lisää suosikkeihin
+    unfavorite: Poista suosikeista
+    pin: Kiinnitä tehtäväpalkkiin
+    unpin: Poista tehtäväpalkista
+  tabs:
+    home: Käynnistä
+  buttons:
+    home: Koti
+    volume: Äänenvoimakkuus
+    mode: Tila
+    language: Kieli
+    time: Aika
+    search: Etsi
+
+browser:
+  back: Takaisin
+  forward: Eteenpäin
+  reload: Lataa uudelleen
+  newTab: Uusi välilehti
+  closeTab: Sulje välilehti
+  minimize: Pienennä
+  maximize: Suurenna
+  restore: Palauta
+  close: Sulje
+  address: Osoite
+  pages:
+    home:
+      title: Etusivu
+      heading: Tervetuloa
+      subtitle: Valitse sivu tai kirjoita osoite
+      search: 'Hae tai kirjoita mock://docs'
+      docs: Dokumentaatio
+      notFound: Puuttuva sivu
+    docs:
+      title: Dokumentaatio
+      heading: Dokumentaatio
+      body: Tämä on selainkomponentin sisällä näytettävä esimerkkisivu.
+      points: Korjaa rikkinäisiä linkkejä ja ansaitse pisteitä
+      votes: Äänestä yhteisön päätöksistä
+      delegate: Valtuuta äänesi päätöskohtaisesti
+    notFound:
+      title: Sivua ei löytynyt
+      description: Tätä osoitetta ei ole mock-selaimessa.
+      home: Etusivulle
+
+window:
+  minimize: Pienennä
+  maximize: Suurenna
+  restore: Palauta
+  close: Sulje
+notes:
+  title: Muistiinpanot
+  new: Uusi muistiinpano
+  delete: Poista muistiinpano
+  search: Hae muistiinpanoista
+  untitled: Nimetön
+  emptyTitle: Muistiinpanoja ei löytynyt
+  emptyDescription: Luo muistiinpano aloittaaksesi.
+  chars: '{n} merkkiä'
+  heading: 'Otsikko {n}'
+  bullet: Luettelo
+  ordered: Numeroitu luettelo
+  quote: Lainaus
+  placeholder: Aloita kirjoittaminen...
+  welcome: |-
+    # Tervetuloa
+
+    Kirjoita muistiinpanosi tähän. Ne tallentuvat automaattisesti tähän selaimeen.
+
+    - Valitse teksti muotoillaksesi sen
+    - Käytä työkalupalkkia otsikoihin ja luetteloihin
+
+messages:
+  title: Viestit
+  search: Hae keskusteluista
+  placeholder: Kirjoita viesti...
+  send: Lähetä
+  typing: '{name} kirjoittaa'
+  empty: Valitse keskustelu
+  noMatches: Keskusteluja ei löytynyt
+  seed:
+    ana1: Hei! Näitkö uuden korjausjonon?
+    ana2: Otin hoitooni rikkinäisen linkin omassa julkaisussani.
+    jorge1: Äänestys päättyy huomenna, oletko äänestänyt?
+    jorge2: En vielä, teen sen nyt.
+    sara1: Kiitos tunnustuksesta!
+  replies:
+    r1: Kuulostaa hyvältä!
+    r2: Katson asiaa.
+    r3: Kiitos, selvä.
+
+explorer:
+  title: Resurssienhallinta
+  description: Selaa kansioita ja avaa tiedostoja
+  root: Oma tietokone
+  docs: Asiakirjat
+  readme: Lue minut
+  open: Avaa
+  rename: Nimeä uudelleen
+  delete: Poista
+  empty: Kansio on tyhjä
+  search: Suodata tiedostoja
+  tree: Kansiot
+  items: '{count} kohdetta'
+  music: Musiikki
+  song: Kappale
+  clip: Video
+  pictures: Kuvat
+  light: Vaalea
+  dark: Tumma
+  trash: Roskakori
+  newFolder: Uusi kansio
+  newNote: Uusi muistiinpano
+  restore: Palauta
+  deleteForever: Poista pysyvästi
+  emptyTrash: Tyhjennä roskakori
+  emptyTitle: Tyhjennetäänkö roskakori?
+  emptyConfirm: Kaikki roskakorin sisältö poistetaan pysyvästi.
+  cancel: Peruuta
+  trashEmpty: Roskakori on tyhjä
+  openWith: Avaa sovelluksella
+  noApp: Kohteelle ei ole liitettyä sovellusta
+
+player:
+  title: Mediasoitin
+  description: Toista ääntä ja videota
+  empty: Ei mediaa ladattuna
+  play: Toista
+  pause: Tauko
+  mute: Mykistä
+  speed: Nopeus
+  previous: Edellinen
+  next: Seuraava
+  playlist: Soittolista
+  queueEmpty: Ei jonossa mitään
+  error: Tiedostoa ei voitu toistaa
+
+gallery:
+  title: Kuvat
+  description: Selaa ja järjestä kuviasi
+  hint: Järjestä vetämällä, avaa kaksoisnapsauttamalla
+  reset: Palauta järjestys
+  empty: Ei vielä kuvia
+  close: Sulje
+  previous: Edellinen
+  next: Seuraava
+  count: '{count} kuvaa'
+
+settings:
+  title: Asetukset
+  description: Mukauta työpöytääsi
+  general: Yleiset
+  appearance: Ulkoasu
+  account: Tili
+  autoHide: Piilota tehtäväpalkki automaattisesti
+  autoHideHint: Piilota tehtäväpalkki, kunnes osoitin saavuttaa reunan
+  clock24h: 24 tunnin kello
+  startMenuMode: Käynnistä-valikon tyyli
+  modePopover: Ponnahdusikkuna
+  modeTabbar: Välilehtipalkki
+  language: Kieli
+  colorMode: Väritila
+  accent: Korostusväri
+  wallpaper: Taustakuva
+  none: Ei mitään
+  reset: Palauta oletukset
+  musicRepeat: Toista musiikkia uudelleen
+  musicVolume: Musiikin äänenvoimakkuus
+
+kanban:
+  title: Taulu
+  description: Suunnittele ja seuraa työtä
+  todo: Tehtävät
+  doing: Työn alla
+  done: Valmis
+  add: Lisää
+  placeholder: Uusi tehtävä
+  empty: Ei mitään
+  reset: Nollaa taulu
+  move: Siirrä
+  delete: Poista
+  moveTo: 'Siirrä sarakkeeseen {column}'
+  seedOne: Dynaamiset tiedostot ja roskis
+  seedTwo: Tyhjennä korjausjono
+
+music:
+  title: Musiikki
+  seek: Hae kohtaa
+  previous: Edellinen
+  next: Seuraava
+  play: Toista
+  pause: Tauko
+  stop: Pysäytä
+  mute: Mykistä
+  volume: Äänenvoimakkuus
+  playlist: Soittolista
+  empty: Ei kappaleita
+  failed: Tiedostoa ei voitu toistaa
+  repeat: Toista uudelleen
+
+clock:
+  title: Aika
+  tabClock: Kello
+  tabCalendar: Kalenteri
+  tabStopwatch: Sekuntikello
+  tabTimer: Ajastin
+  tabAlarms: Herätykset
+  world: Maailmankello
+  zone:
+    helsinki: Helsinki
+    london: Lontoo
+    newYork: New York
+    tokyo: Tokio
+  start: Käynnistä
+  pause: Tauko
+  lap: Kierros
+  reset: Nollaa
+  minutes: min
+  increase: Lisää minuutti
+  decrease: Vähennä minuutti
+  timerDone: Aika on lopussa
+  alarmTime: Herätysaika
+  alarmLabel: Nimi
+  addAlarm: Lisää herätys
+  deleteAlarm: Poista herätys
+  noAlarms: Ei herätyksiä
+  alarmRinging: Herätys
+
+paint:
+  title: Paint
+  brush: Sivellin
+  eraser: Pyyhekumi
+  size: Sivellinkoko
+  undo: Kumoa
+  clear: Tyhjennä kanvas
+  save: Tallenna Kuviin
+  download: Lataa
+  saved: Piirros tallennettu
+  openGallery: Avaa Kuvissa
+  noWebp: Tämä selain ei osaa koodata WebP-kuvia
+  file: Piirros
+
+geo:
+  construction: Työn alla
+  visitors: Olet vierailija numero
+  back: Takaisin hakemistoon
+  directory:
+    title: GeoTownit
+    intro: Valitse kaupunginosa ja vieraile kotisivulla.
+    missing: Sivua ei löydy. GeoCities suljettiin vuonna 2009.
+  guestbook:
+    title: Kirjoita vieraskirjaani
+    open: Kirjoita vieraskirjaani
+    name: Nimesi
+    message: Viestisi
+    submit: Allekirjoita
+    seed1Name: xXCoolCatXx
+    seed1Text: Mahtava sivu! Käy myös minun sivuillani!
+    seed2Name: Sari
+    seed2Text: Ihanat värit. Lisäsin sinut verkkorinkiini!
+  webring:
+    title: Retropiirin jäsen
+    previous: Edellinen sivusto
+    next: Seuraava sivusto
+  badges:
+    notepad: Tehty Muistiolla
+    netscape: Paras kokemus Bravella
+    anyBrowser: Mikä tahansa selain
+  sites:
+    ufo:
+      title: Area 51 Alien -sivu
+      marquee: Tervetuloa kotisivulleni! Totuus on jossain tuolla!
+      welcome: Olen tutkinut ufoja vuodesta 1997. Tältä sivulta löydät kaiken tarpeellisen.
+      like1: Roswell, 1947
+      like2: Viljakuviot
+      like3: Salaiset kansiot
+    cats:
+      title: Herra Kisun fanikerho
+      marquee: Miau! Tervetuloa verkon parhaalle kissasivulle!
+      welcome: Tämä on Herra Kisun virallinen koti, Hollywoodin suloisimman kissan.
+      like1: Päiväunet auringossa
+      like2: Pahvilaatikot
+      like3: Tonnikala, aina tonnikala
+    skins:
+      title: Erityiskuoret-arkisto
+      marquee: Lataa kuumimmat teemat soittimeesi!
+      welcome: Yli 5 teemaa, kaikki ilmaisia. Älä linkitä tiedostoja suoraan.
+      like1: Metalli- ja kromiteemat
+      like2: Kissateemat
+      like3: Teemat, joita ei voi lukea
+
+sheet:
+  title: Taulukko
+  formula: Kaavakenttä
+  cell: 'Solu {id}'
+  export: Vie CSV-tiedostona
+  reset: Lataa esimerkki
+  clear: Tyhjennä kaikki
+  hint: 'Kirjoita muokataksesi ja paina Enter. Kaavat alkavat merkillä =, esimerkiksi =SUM(B2:B4).'
+
+
+kiosk:
+  title: Paperikioski
+  online: Verkossa
+  tabMint: Lyö
+  tabVerify: Tarkista
+  tabReconcile: Täsmennä
+  value: Arvo
+  expiry: Voimassaolo päivinä
+  expiryHint: 0 tarkoittaa, ettei paperi vanhene
+  salt: Yhteisön suola
+  mint: Lyö paperi
+  newKey: Uusi liikkeellelaskijan avain
+  noPaper: Ei vielä paperia. Lyö yksi nähdäksesi sen tässä.
+  units: yksikköä
+  qrNote: Paikkamerkkikuvio. Kopioi tunniste tarkistusta varten.
+  copy: Kopioi tunniste
+  copied: Kopioitu
+  paste: Liitä tunniste tähän
+  verify: Tarkista offline-tilassa
+  useLatest: Käytä viimeisintä paperia
+  valid: Kelvollinen paperi
+  accept: Lisää erään
+  serial: Sarjanumero
+  worth: Arvo
+  note: Johdettu runo
+  expires: Vanhenee
+  never: Ei koskaan
+  reconcile: Täsmäytä
+  resetLedger: Nollaa pääkirja
+  offlineNotice: Olet offline-tilassa. Tarkistus toimii edelleen, mutta täsmennys tarvitsee kioskin.
+  batch: Erä
+  emptyBatch: Erässä ei ole mitään
+  results: Tulokset
+  balances: Saldot
+  bearer: Haltijainstrumentti. Paperin haltija voi käyttää sen.
+  saltLabel: Suola
+  keyLabel: Liikkeeseenlaskijan avain
+  merchants:
+    shopA: Farmi
+    shopB: Leipomo
+  reasons:
+    expired: Tämä paperi on vanhentunut
+    malformed: Tämä ei ole kelvollinen tunniste
+    signature: Allekirjoitus ei täsmää liikkeeseenlaskijan avaimeen
+  status:
+    credited: Hyvitetty
+    double-spend: Tuplakäyttö
+    expired: Vanhentunut
+    invalid: Virheellinen
+  tabNotes: Viestit
+  notes:
+    writeTitle: Liitä salainen viesti
+    readTitle: Lue salainen viesti
+    serial: Paperin sarjanumero
+    placeholder: Kirjoita viesti sille, jolla tämä paperi on
+    attach: Lukitse ja liitä
+    read: Lue kerran
+    attached:
+      ok: 'Viesti lukittu. Sen voi lukea kerran {days} päivän sisällä.'
+      exists: Tähän sarjanumeroon on jo liitetty viesti
+      invalid: Tämä ei ole kelvollinen sarjanumero
+    readFailed:
+      gone: Viestiä ei löytynyt. Se on jo luettu tai vanhentunut.
+      invalid: Tämä ei ole kelvollinen sarjanumero
+    deleted: Poistettu kioskilta
+    serverTitle: Mitä kioski näkee
+    serverHint: Vain tiiviste, salakirjoitettu teksti ja vanhenemisaika. Ei sarjanumeroa, avainta eikä tekstiä.
+    serverEmpty: Ei tallennettuja
+
+communication:
+  title: Viestintä
+  description: Valitse kanava, jolla keskustelet yhteisön kanssa.
+  copy: Kopioi linkki
+  copied: Linkki kopioitu
+  empty: Kanavia ei ole määritetty
+  channels:
+    github: Keskustelut ja virheilmoitukset
+    jitsi: Videopalaverit
+    telegram: Ryhmäkekustelu
+    signal: Yksityinen ryhmäkekustelu
+  names:
+    github: GitHub
+    jitsi: Jitsi
+    telegram: Telegram
+    signal: Signal
+  openApp: Avaa täällä
+  openLink: Avaa uudessa välilehdessä
+
+jitsi:
+  title: Videopalaveri
+  room: Huone
+  name: Näyttönimi
+  namePlaceholder: Nimesi
+  audio: Aloita mikrofoni päällä
+  video: Aloita kamera päällä
+  join: Liity
+  leave: Poistu
+  random: Satunnainen huone
+  copy: Kopioi kutsulinkki
+  copied: Kutsulinkki kopioitu
+  external: Avaa uudessa välilehdessä
+
+run:
+  title: Suorita
+  placeholder: Kirjoita sovellus tai komento...
+  apps: Sovellukset
+  language: Kieli
+  running: Käynnissä
+
+copy:
+  page: Kopioi sivu
+  markdownLink: Kopioi Markdown-linkki
+  viewMarkdown: Näytä Markdownina
+  copied: Kopioitu leikepöydälle
+  openMenu: Avaa kopiointitoiminnot
+  print: Tulosta
+  edit: Muokkaa
+  markdownDl: Lataa .md
+  clear: Tyhjennä
+
+graphs:
+  title: Kaaviot
+  open: Avaa
+  empty: Ei kaavioita
+  fallback:
+    title: Not available in your language
+    description: Showing the English version instead.
+
+persona:
+  names:
+    new: Uusi käyttäjä (viikko 1)
+    casual: Satunnaiskäyttäjä (kuukausi 1)
+    power: Tehokäyttäjä (kuukausi 3)
+    catmin: Ylläpitäjä
+  cards:
+    post: Uusi julkaisu
+    events: Tapahtumat
+    files: Tiedostot
+    team: Tiimi
+    stats: Tilastot
+    inbox: Postilaatikko
+    tasks: Tehtävät
+    notes: Muistiinpanot
+    links: Linkit
+    search: Haku
+  advanced:
+    more: Lisää
+    less: Vähemmän
+    api: API-avaimet
+    webhooks: Webhookit
+    audit: Lokitiedot
+  editor:
+    title: Muokkain
+    hint: 'Paina {key} ja kirjoita {command}'
+    placeholder: Kirjoita jotain...
+  notifications:
+    title: Ilmoitukset
+    toast: '{count} uusi ilmoitus | {count} uutta ilmoitusta'
+    label: 'ei ilmoituksia | {count} ilmoitus | {count} ilmoitusta'
+    empty: Kaikki luettu
+    hint: 'Paina {key} ja valitse ilmoitukset'
+    types:
+      error: Hälytykset
+      warning: Varoitukset
+      info: Päivitykset
+      success: Valmiit
+    items:
+      deploy: 'Julkaisu {name} epäonnistui'
+      payment: 'Maksu asiakkaalta {name} hylättiin'
+      quota: 'Tallennustila on {name} täynnä'
+      expiry: 'Tilauksesi {name} päättyy pian'
+      release: 'Versio {name} on julkaistu'
+      invite: '{name} kutsui sinut projektiin'
+      backup: 'Varmuuskopio {name} valmistui'
+      import: 'Tuonti {name} valmistui'
+    markAll: Merkitse luetuiksi
+  summary: '{count} kortti näkyvillä | {count} korttia näkyvillä'
+
+workflow:
+  title: 'Työnkulku: {name}'
+  active: Aktiivinen
+  inactive: Ei aktiivinen
+  trigger:
+    when: Kun
+    memberJoins: Jäsen liittyy yhteisöön
+  steps:
+    dm: Lähetä yksityisviesti
+    wait: Odota
+    branch: Haara
+    loop: Silmukka
+  wait: '{count} tunti | {count} tuntia'
+  branch:
+    if: Jos
+    then: Silloin
+    else: Muuten
+  loop:
+    each: Jokaiselle tilalle, johon jäsen liittyi
+  actions:
+    edit: Muokkaa
+    done: Valmis
+    duplicate: Monista
+    activate: Aktivoi
+    deactivate: Poista käytöstä
+    delete: Poista
+  stats:
+    runs: 'Ajoja: {count}'
+    last: 'Viimeksi: {time}'
+    failures: 'Virheitä: {count}'
+  add: Lisää vaihe
+  insertVariable: Lisää muuttuja
+  dragHint: Järjestä vaiheita vetämällä
+  placeholder: Kirjoita viesti...
+  duplicated: Työnkulku monistettu
+  deleted: Työnkulku poistettu
+  sample:
+    name: Tervetuloviestit
+    intro: 'Hei {name}, tässä lyhyt esittely'
+    spaceWelcome: 'Tervetuloa tilaan {space}!'
+    live: 'Esittelysi on julkaistu → {post}'
+    voice: Haluatko liittyä äänihuoneeseen?
+    advanced: Tutustu edistyneisiin kanaviin
+
+demo:
+  tabs:
+    workflow: Työnkulku
+    chart: Tilastot
+    persona: Persoonat
+    home: Etusivu
+    profile: Profiili
+    various: Sekalaisia
+  hero:
+    headline: CSS
+    title: Käyttöliittymät, jotka mukautuvat käyttäjiin
+    description: Tutustu työnkulkujen rakentimeen ja persoonakohtaisiin näkymiin, täysin käännettynä suomeksi ja englanniksi.
+    workflow: Avaa työnkulkurakennin
+    persona: Katso persoonat
+    cards:
+      workflow:
+        title: Työnkulkurakennin
+        description: Vedä, haaraudu ja toista vaiheita automaattisten tervetuloviestien luomiseksi.
+      chart:
+        title: Kaaviot
+        description: Datan visualisointia tietoikkunoilla eri kaavioiden avulla.
+      persona:
+        title: Persoonat
+        description: Katso, miten tiheys, nimet ja ilmoitukset mukautuvat käyttäjän kasvaessa.
+      profile:
+        title: Ääni ja maine
+        description: Säädä sävyä, mediaa ja moderointia ja katso maineen pisteet yhdellä silmäyksellä.
+      various: 
+        title: Sekalaisia
+        description: Kokoelma erilaisia animoituja ja viriteltyjä komponentteja.
+      tools: 
+        title: Työkaluja
+        description: Kaavakkeita ja muita apuvälineitä toiminnan nopeuttamiseen.
+  various:
+    inputs: Syötteet
+    controls: Ohjaimet
+    motion: Liike
+    showcase: Skrollaus
+    tools: Työkalut
+    crypto: Krypto
+
+profile:
+  title: Ääni ja maine
+  formality:
+    label: Muodollisuus
+    casual: Rento
+    academic: Akateeminen
+    tiers:
+      casual: Rento sävy
+      balanced: Tasapainoinen sävy
+      formal: Muodollinen sävy
+  media:
+    label: Suosittu media
+    text: Teksti
+    image: Kuva
+    video: Video
+    mixed: Sekalainen
+  cadence:
+    label: Julkaisutahti
+    hourly: Tunneittain
+    daily: Päivittäin
+    weekly: Viikoittain
+  moderation:
+    label: Moderointityyli
+    permissive: Salliva
+    balanced: Tasapainoinen
+    strict: Tiukka
+  language:
+    label: Kieli
+  reputation:
+    title: Maine
+    overall: 'Yhteensä: {score}'
+    helpfulness: Avuliaisuus
+    consistency: Johdonmukaisuus
+    crossSpace: Toiminta eri tiloissa
+    moderation: Moderointi
+  snapshot: Profiilin tiedot
+  reset: Palauta
+
+chart:
+  visitors: Kävijää
+  visitorsByBrowser: Kävijät selaimen mukaan
+  freedom: Vapaus
+  bureaucracy: Byrokratia
+  balance: Saldo
+  freedomVsBureaucracy: Vapaus ja byrokratia
+  months:
+    january: Tammikuu
+    february: Helmikuu
+    march: Maaliskuu
+    april: Huhtikuu
+    may: Toukokuu
+    june: Kesäkuu
+  visitorsAgainstTarget: Kävijät tavoitteeseen nähden
+  desktop: Tietokone
+  mobile: Mobiili
+  visitorsByDevice: Kävijät laitteen mukaan
+
+tools:
+  slider: Voimakkuus
+
+swipe:
+  delete: Poista
+  listItem: Luettelon kohde
+  release: 'Vapauta: {action}'
+  revealed: '{count} toimintoa näkyvissä'
+  actions: '{count} toiminto | {count} toimintoa'
+  archive: Arkistoi
+
+todo:
+  ship: Julkaise koonti
+  review: Tarkista vetopyyntö
+  deploy: Vie tuotantoon
+  remaining: '{count} tehtävä jäljellä | {count} tehtävää jäljellä'
+
+sling:
+  send: Lähetä
+  sent: Lähetetty
+  hint: Paina Enter lähettääksesi tai vedä pois ja päästä irti.
+
+refineFrame:
+  queued: Jonossa
+  generating: Luodaan
+  refining: Tarkennetaan
+  complete: Valmis
+  error: Epäonnistui
+  retry: Yritä uudelleen
+
+warmRating:
+  label: Arvostelu
+  item: '{n}/{count}'
+  itemLabel: '{n}/{count}, {label}'
+  poor: Heikko
+  fair: Tyydyttävä
+  good: Hyvä
+  great: Erinomainen
+  superb: Huippu
+
+warmDial:
+  label: Taso
+
+pinSlots:
+  label: Kertakäyttökoodi
+  accepted: Koodi hyväksytty
+  progress: '{count}/{length} numeroa syötetty'
+  successTitle: Koodi hyväksytty
+  successBody: Vahvistus onnistui.
+  errorTitle: Virheellinen koodi
+  errorBody: Tarkista numerot ja yritä uudelleen.
+
+branchMenu:
+  gettingStarted: Aloitus
+  installation: Asennus
+  quickStart: Pikaopas
+  configuration: Asetukset
+  theming: Teemat
+  components: Komponentit
+  buttons: Painikkeet
+  typography: Typografia
+  overlays: Peittokerrokset
+  toasts: Ilmoitukset
+
+infiniteSpiral:
+  label: Päättymätön spiraaligalleria
+  image: 'Spiraalikuva {n}'
+
+error:
+  notFoundTitle: Sivua ei löytynyt
+  notFoundBody: Etsimääsi sivua ei ole olemassa.
+  genericTitle: Jokin meni pieleen
+  genericBody: Yritä myöhemmin uudelleen.
+  back: Takaisin etusivulle
+
+editor:
+  placeholder: Kirjoita tai paina / nähdäksesi komennot...
+  heading: 'Otsikko {level}'
+  headings: Otsikot
+  lists: Luettelot
+  undo: Kumoa
+  redo: Tee uudelleen
+  bulletList: Luettelo
+  orderedList: Numeroitu luettelo
+  blockquote: Lainaus
+  codeBlock: Koodilohko
+  divider: Erotinviiva
+  paragraph: Kappale
+  bold: Lihavointi
+  italic: Kursivointi
+  underline: Alleviivaus
+  strike: Yliviivaus
+  code: Koodi
+  link: Linkki
+  image: Kuva
+  textAlign: Tasaus
+  align:
+    left: Vasemmalle
+    center: Keskitä
+    right: Oikealle
+    justify: Tasaa molemmat reunat
+  download: Lataa .md
+  mention: Maininta
+  emoji: Emoji
+  suggestion:
+    style: Tyyli
+    insert: Lisää
+  initialContent: 'Kokeile eri komentoja, kuten /. Raahaa osioita tai maalaa tekstiä.'
+  filename: dokumentti.md
+  components: Lisää komponentti
+  mdc:
+    chart: Kaaviot
+    timeline: Aikajana
+    progressGroup: Ryhmitelty edistyminen
+
+bookmarks:
+  available: Kirjanmerkit
+  favorites: Suosikit
+  search: Hae kirjanmerkeistä...
+  searchFavorites: Hae suosikeista...
+  unsorted: Lajittelemattomat
+  add: Lisää suosikkeihin
+  remove: Poista suosikeista
+  emptySource: Kirjanmerkkejä ei löytynyt
+  emptyFavorites: Ei vielä suosikkeja
+
+task:
+  badge: Tehtävienhallinta
+  title: Tehtävän tiedot
+  subtitle: Pidä tehtävä linjassa tiimin prioriteettien ja tavoitteiden kanssa.
+  defaultTitle: Muokkaa suunnitelua
+  defaultDescription: Tavoitteena on päivittää nykyinen suunnittelu uusimmilla komponenteilla ja tyyleillä. Se sisältää olemassa olevien elementtien tarkastelun, parannuskohteiden tunnistamisen ja muutosten toteuttamisen, jotta yhdenmukaisuus ja käytettävyys säilyvät kaikilla alustoilla.
+  fields:
+    title: Tehtävän nimi
+    titleHelp: Pidä se lyhyenä ja tavoitteellisena.
+    priority: Prioriteetti
+    assign: Tehtävän vastuuhenkilöt
+    team: Tiimi
+    description: Kuvaus
+    descriptionLabel: Tehtävän kuvaus
+  priority:
+    high: Korkea
+    highHelp: Vaatii välitöntä huomiota ja omistettuja resursseja
+    medium: Keskitaso
+    mediumHelp: Tärkeä, mutta ei estä muuta työtä
+    low: Matala
+    lowHelp: Kiva-jos-olisi-parannuksia, jotka ajoitetaan myöhemmin
+  roles:
+    designer: Tuotesuunnittelija
+    manager: Suunnittelupäällikkö
+    researcher: UX-tutkija
+    owner: Tuotteen omistaja
+    engineer: UI-kehittäjä
+  toolbar:
+    bold: Lihavointi
+    italic: Kursiivi
+    underline: Alleviivaus
+    bullets: Luettelo
+    numbers: Numeroitu luettelo
+  actions:
+    addPerson: Lisää henkilö
+    removePerson: Poista {name} tästä tehtävästä
+    reset: Palauta
+    resetHint: Haluatko aloittaa alusta?
+    save: Tallenna muutokset
+    saving: Tallennetaan...
+    saved: Tallennettu!
+  reminder:
+    title: Muistutus
+    on: Ilmoitamme vastuuhenkilöille 24 tuntia ennen eräpäivää.
+    off: Ota muistutukset käyttöön, jotta kaikki pysyvät aikataulussa.
+  counter: '{remaining} / {max}'
+
+resume:
+  edit: Muokkaa
+  done: Valmis
+  reset: Palauta
+  downloadJson: Lataa JSON
+  downloadPdf: Lataa PDF
+  contact: Yhteystiedot
+  stack: Osaaminen
+  education: Koulutus
+  about: Tietoa
+  experience: Työkokemus
+  projects: Projektit
+  fields:
+    name: Nimi
+    role: Rooli
+    website: Verkkosivu
+    location: Sijainti
+    degree: Tutkinto
+    school: Koulu
+    period: Ajanjakso
+    company: Yritys
+    title: Otsikko
+    description: Kuvaus
+    bullets: Yksi saavutus per rivi
+    stars: Tähdet
+    url: Linkki
+  stackHint: Lisää taito painamalla enter
+  addJob: Lisää työkokemus
+  addProject: Lisää projekti
+  remove: Poista
+  newJob: Uusi rooli
+  newProject: Uusi projekti
+  data:
+    role: Vapausinsinööri
+    location: Jossain
+    education:
+      degree: Tietokoneohjelmointi
+      school: Elämän yliopisto
+      period: 2016 - 2026
+    about: Tuoteinsinööri, joka keskittyy rakentamaan saavutettavia, pikselintarkkoja käyttöliittymiä. Suunnittelen parhaillaan järjestelmiä Vercelillä. Intohimona verkkosivujen suorituskyky ja kehittäjäkokemus.
+    experience:
+      - role: Frontend-suunnittelija
+        period: 2022 - nykyhetki
+        description:
+          - Johti siirtymisen Nitro App Routeriin ja paransi latausaikoja 35 %.
+          - Suunnitteli yli 50 insinöörin käyttämän sisäisen komponenttikirjaston arkkitehtuurin.
+      - role: Ohjelmistoinsinööri
+        period: 2020 - 2022
+        description:
+          - Rakensi uuden kassakokemuksen ja kasvatti konversiota 12 %.
+          - Toteutti automatisoidut saavutettavuustestauksen putket.
+    projects:
+      - title: Cat UI
+        desc: Reka UI -suunnittelujärjestelmästä inspiroitunut Nuxt-komponenttikirjasto.
+      - title: Cat Co
+        desc: Nuxt UI:lla rakennettu interaktiivinen yhteisöalusta.
+
+brand:
+  title: Tee omasi
+  subtitle: Lisää logo ja valitse jutullesi korostusväri.
+  preview: Esikatselu
+  save: Tallenna juttu
+  saved: Juttui tallennettu
+  fallbackName: Juttusi
+  meta: 'Ilmainen paketti · {count} jäsentä'
+  newProject: Uusi projekti
+  fields:
+    name: Näyttönimi
+    namePlaceholder: Kisu Oy
+    logo: Logo
+    accent: Korostusväri
+  upload:
+    label: Lataa napsauttamalla tai vedä logo tähän
+    description: PNG, JPG tai SVG, enintään 2 Mt
+  errors:
+    notImage: Valitse kuvatiedosto
+    tooLarge: Kuva on suurempi kuin 2 Mt
+  colors:
+    primary: Ensisijainen
+    secondary: Toissijainen
+    success: Onnistuminen
+    info: Tieto
+    warning: Varoitus
+    error: Virhe
+  quickActions: Pikatoiminnot
+  invite: Kutsu
+  connect: Yhdistä
+  preferences: Mieltymykset
+
+team:
+  title: Tiimin jäsenet
+  description: Hallitse, ketkä pääsevät työtilaan ja mitä he voivat tehdä.
+  open: Tiimin jäsenet
+  invite: Kutsu jäsen
+  inviteHint: Kutsudialogi
+  search: Hae jäseniä
+  empty: Jäseniä ei löytynyt.
+  removed: Jäsen poistettu
+  reminderSent: 'Muistutus lähetetty käyttäjälle {name}'
+  permissionsHint: Käyttöoikeudet
+  roleFor: 'Rooli käyttäjälle {name}'
+  actionsFor: 'Toiminnot käyttäjälle {name}'
+  columns:
+    name: Nimi
+    status: Tila
+    role: Rooli
+  status:
+    active: Aktiivinen
+    invited: Kutsuttu
+  roles:
+    owner: Omistaja
+    admin: Ylläpitäjä
+    member: Jäsen
+    viewer: Katselija
+  actions:
+    resend: Lähetä kutsu uudelleen
+    permissions: Käyttöoikeudet
+    remove: Poista
+
+spective:
+  title: Retrospektiivit
+  open: Retrospektiivi
+  votesLeft: 'ei ääniä jäljellä | 1 ääni jäljellä | {count} ääntä jäljellä'
+  resetVotes: Nollaa äänet
+  outOfVotes: Äänesi ovat loppu. Poista yksi äänestääksesi uudelleen.
+  addNote: Lisää muistiinpano
+  addNoteTo: 'Lisää muistiinpano sarakkeeseen {column}'
+  markDone: 'Merkitse tehdyksi: {text}'
+  vote: 'Äänestä: {text}'
+  unvote: 'Poista äänesi: {text}'
+  columns:
+    good: Meni hyvin
+    bad: Parannettavaa
+    actions: Toimenpiteet
+  notes:
+    pairing: Pariohjelmointi tarkistuslistan parissa nopeutti työtä
+    demos: Demot pitivät kaikki samalla sivulla
+    requests: Liikaa yllättäviä pyyntöjä kesken sprintin
+    staging: Staging oli epävakaa kaksi päivää
+    intake: Sovitaan pyyntöjen vastaanottoprosessi
+    healthCheck: Lisätään stagingille tarkistus
+
+chakra:
+  title: Chakrojen energia
+  description: Seitsemän chakran nykyinen energiataso.
+  ariaLabel: Chakrojen energian ruusukaavio
+  ariaDescription: Ruusukaavio, joka näyttää seitsemän chakran energiatason asteikolla 0–9.
+  items:
+    root:
+      name: Muladhara
+      label: Juuri
+    sacral:
+      name: Svadhisthana
+      label: Sakraali
+    solarPlexus:
+      name: Manipura
+      label: Aurinkopunos
+    heart:
+      name: Anahata
+      label: Sydän
+    throat:
+      name: Vishuddha
+      label: Kurkku
+    thirdEye:
+      name: Ajna
+      label: Kolmas silmä
+    crown:
+      name: Sahasrara
+      label: Kruunu
+
+funnel:
+  title: Suppilo
+  description: Miten kävijöistä tulee asiakkaita.
+  ariaLabel: Muunnosversiosuppilo
+  stages:
+    visitors: Kävijät
+    leads: Ohjaukset
+    qualified: Valitut
+    proposals: Ehdotukset
+    customers: Asiakkaat
+  ofVisitors: kävijöistä
+
+keyboard:
+  ariaLabel: Näppäimistö
+  platforms:
+    mac: Mac
+    windows: Windows
+  layouts:
+    en: English
+    fi: Suomi
+  keys:
+    esc: esc
+    tab: sarkain
+    capsLock: caps lock
+    shift: vaihto
+    return: rivinvaihto
+    enter: enter
+    delete: poista
+    backspace: askelpalautin
+    del: del
+    control: ctrl
+    option: optio
+    command: komento
+    ctrl: ctrl
+    alt: alt
+    altGr: alt gr
+    left: Vasen nuoli
+    right: Oikea nuoli
+    up: Ylänuoli
+    down: Alanuoli
+
+mood:
+  title: Miltä sinusta tuntuu tänään?
+  description: Arvioi jokainen tunne asteikolla 0-10.
+  save: Tallenna tämä päivä
+  reset: Palauta
+  saved: Päivän mieliala tallennettu
+  history: Viimeiset 7 päivää
+  historyAria: Viivakaavio tunteista viimeisten 7 päivän ajalta
+  emptyTitle: Tietoja ei vielä riittävästi
+  emptyDescription: Tallenna vähintään kaksi päivää nähdäksesi historian.
+
+feelings:
+  title: Tunteiden tutka
+  description: Miltä minusta tuntuu tänään, asteikolla 0-10.
+  ariaLabel: Tämänhetkisten tunteiden tutkakaavio
+  footer: Tänään enimmäkseen rakkautta ja iloa
+  items:
+    joy: Ilo
+    calm: Rauha
+    love: Rakkaus
+    energy: Energia
+    hope: Toivo
+    sadness: Suru
+    anger: Viha
+    anxiety: Ahdistus
+
+localFile:
+  open: Avaa tiedosto
+  save: Tallenna
+  saveAs: Tallenna nimellä
+  opened: 'Avattu {name}'
+  saved: Tallennettu tiedostoon
+  error: Tiedoston lukeminen tai kirjoittaminen epäonnistui
+  invalid: Virheellinen tiedosto
+  title: Tiedostodemo
+  description: Muokkaa muistiinpanoja ja tallenna ne oikeaan tiedostoon tai avaa tiedosto levyltä.
+  placeholder: Uusi muistiinpano
+  add: Lisää
+  remove: Poista muistiinpano
+  sample1: Kokeile tallentaa tämä lista tiedostoon
+  sample2: Avaa tiedosto uudelleen myöhemmin
+  emptyTitle: Ei vielä muistiinpanoja
+  emptyDescription: Lisää muistiinpano yllä tai avaa tiedosto.
+  preview: Reaaliaikainen JSON
+
+authenticator:
+  title: Todentaja
+  description: Kertakäyttökoodit, salattuna ja tallennettuna vain tälle laitteelle.
+  lock: Lukitse
+  passphrase: Salasana
+  confirm: Vahvista salasana
+  create: Luo holvi
+  unlock: Avaa
+  noRecovery: Palautusta ei ole. Jos unohdat salasanan, holvia ei voi avata.
+  passMismatch: Käytä vähintään 8 merkkiä ja varmista että molemmat kentät täsmäävät
+  wrongPass: Väärä salasana
+  badUri: Linkkiä ei voitu lukea
+  badSecret: Salainen avain ei kelpaa
+  copied: Koodi kopioitu
+  copy: Kopioi koodi
+  invalid: Virheellinen holvitiedosto
+  add: Lisää tili
+  addTitle: Uusi tili
+  save: Tallenna
+  cancel: Peruuta
+  remove: Poista tili
+  uri: Asennuslinkki
+  uriHint: Valinnainen, täytä alla olevat kentät
+  issuer: Palvelu
+  account: Tili
+  secret: Salainen avain
+  period: Jakso
+  digits: Numeroita
+  algorithm: Algoritmi
+  emptyTitle: Ei vielä tilejä
+  emptyDescription: Lisää tili asennuslinkillä tai salaisella avaimella.
+
+chat:
+  ask: Kuvaile tilanteesi.
+  appealPrompt: Voit valittaa. Esitä perusteesi.
+  denied: 'Hakemus hylätty. Perustelu: {reason}'
+  appealDenied: 'Valitus hylätty. Perustelu: {reason}'
+  placeholder: Liitä tähän
+  restart: Aloita alusta
+  hint: Pyydä kielimalliltasi 200 sanaa ja liitä ne tähän.
+  verdict: 'Päätös: hylätty (p={p}). Jakaumalla on yksi tila.'
+  tokens: tarkastetaan hakemus pykälän mukaisesti jäljempänä luottamus huolimatta uskottava jäsennelty siksi siis asiaan
+
+schrodinger:
+  label: Kirjoita jotain
+  placeholder: Kirjoita yksi merkki
+  state:
+    static: Staattinen sivu
+    platform: DSA-alusta
+    former: Entinen alusta
+  hint:
+    static: Ei velvoitteita. Pelkkää HTML:ää.
+    platform: Ihminen kirjoitti jotain sivulle. Syntyi alusta.
+    former: Teksti on poissa. Velvoitteet eivät.
+  retention:
+    title: Tiedot on säilytettävä
+    description: Sisällön poistaminen ei poista velvollisuutta. Säilytä tiedot 6 kuukautta.
+  vlop: Erittäin suuri alusta
+  lifetime: 'Laukaistuja velvoitteita {count}'
+  log: 'Alustana {seconds} sekuntia'
+  followup: 'Tarkistus {depth} kohteelle {name}'
+  obligations:
+    tos: Käyttöehdot
+    complaint: Valitusmekanismi
+    report: Läpinäkyvyysraportti
+    notice: Ilmoitus- ja toimenpidemenettely
+    audit: Riippumaton auditointi
+    risk: Systeeminen riskinarviointi

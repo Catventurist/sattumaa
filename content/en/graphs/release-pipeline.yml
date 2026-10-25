@@ -1,0 +1,48 @@
+title: Release Pipeline
+description: An example of how a project proceeds.
+icon: i-lucide-big-right-dash
+lanes:
+  - id: developer
+    label: Developer
+    x: 0
+    y: 0
+    w: 300
+    h: 360
+  - id: pipeline
+    label: CI/CD pipeline
+    x: 300
+    y: 0
+    w: 300
+    h: 360
+  - id: production
+    label: Production
+    x: 600
+    y: 0
+    w: 300
+    h: 360
+nodes:
+  - { id: code-change, label: CodeChange, lane: developer, x: 70, y: 50, w: 160, h: 50 }
+  - { id: pull-request, label: PullRequest, lane: developer, x: 70, y: 150, w: 160, h: 50 }
+  - { id: release-notes, label: ReleaseNotes, lane: developer, x: 70, y: 270, w: 160, h: 50 }
+  - { id: build, label: Build, lane: pipeline, x: 370, y: 50, w: 160, h: 50 }
+  - { id: test-suite, label: TestSuite, lane: pipeline, x: 370, y: 150, w: 160, h: 50 }
+  - { id: deploy, label: Deploy, lane: pipeline, x: 370, y: 270, w: 160, h: 50 }
+  - { id: dashboard, label: Dashboard, lane: production, x: 670, y: 150, w: 160, h: 50 }
+  - { id: live-app, label: LiveApp, lane: production, x: 670, y: 270, w: 160, h: 50 }
+edges:
+  - { id: e1, from: code-change, to: pull-request, path: "M 150 100 L 150 150" }
+  - { id: e2, from: pull-request, to: build, path: "M 230 175 C 300 175, 300 75, 370 75" }
+  - { id: e3, from: build, to: test-suite, path: "M 450 100 L 450 150" }
+  - { id: e4, from: test-suite, to: deploy, path: "M 450 200 L 450 270" }
+  - { id: e5, from: deploy, to: live-app, path: "M 530 295 L 670 295" }
+  - { id: e6, from: test-suite, to: dashboard, path: "M 530 175 L 670 175" }
+  - { id: e7, from: deploy, to: release-notes, path: "M 370 295 L 230 295" }
+walkthrough:
+  steps:
+    - focus: [developer, code-change, pull-request, e1]
+    - focus: [developer, pipeline, pull-request, build, e2]
+    - focus: [pipeline, build, test-suite, e3]
+    - focus: [pipeline, production, test-suite, dashboard, e6]
+    - focus: [pipeline, test-suite, deploy, e4]
+    - focus: [pipeline, production, deploy, live-app, e5]
+    - focus: [developer, pipeline, deploy, release-notes, e7]

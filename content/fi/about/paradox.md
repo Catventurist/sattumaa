@@ -38,17 +38,17 @@ Laki kutsuu tätä järjestykseksi. Diskordiaanit kutsuvat sitä *aneristiseksi 
   UKK, Tietoa, Lisenssi ja Ehdot. Pelkkää HTML:ää. Ei vuorovaikutusta.
   :::
 
-  :::u-page-card{title="Ilmoita virheestä" icon="i-lucide-bug" to="https://github.com" target="_blank" variant="subtle"}
+  :::u-page-card{title="Ilmoita virheestä" icon="i-lucide-bug" to="https://github.com/Catventurist/sattumaa/issues" target="_blank" variant="subtle"}
   #description
   Linkki GitHub Issuesiin. Käyttäjien sisältö on *GitHubin* alustalla. GitHub on DSA:n mukainen vastuutaho.
   :::
 
-  :::u-page-card{title="Osallistu" icon="i-lucide-git-pull-request" to="https://github.com" target="_blank" variant="subtle"}
+  :::u-page-card{title="Osallistu" icon="i-lucide-git-pull-request" to="https://github.com/Catventurist/sattumaa" target="_blank" variant="subtle"}
   #description
   Fork + PR. Ei sähköpostia, lomaketta eikä tiliä. Vuorovaikutus tapahtuu GitHubin kanssa.
   :::
 
-  :::u-page-card{title="Tue" icon="i-lucide-heart" to="https://github.com/sponsors" target="_blank" variant="subtle"}
+  :::u-page-card{title="Tue" icon="i-lucide-heart" to="https://github.com/sponsors/Catventurist" target="_blank" variant="subtle"}
   #description
   Linkki GitHub Sponsorsiin. GitHub käsittelee maksun. Et ole kauppias.
   :::
@@ -66,7 +66,6 @@ Laki kutsuu tätä järjestykseksi. Diskordiaanit kutsuvat sitä *aneristiseksi 
 - **Julkinen oletuksena.** Kaikki työnnetty. Ongelmat, PR:t ja vanhat tuonnit näkyvät kaikille ja pysyvät historiassa, vaikka poistaisit ne myöhemmin.
 - **Ei varmuuskopio.** Repon voi pyyhkiä, nimetä uudelleen, lukita tai poistaa milloin tahansa, tekijänä GitHub tai viranomaispyyntö.
 - **Pidä oma kopio.** Jos data on sinulle tärkeää, tallenna se myös muualle.
-
 ::
 
 ::note

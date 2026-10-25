@@ -38,17 +38,17 @@ The law calls this order. Discordians call it an *aneristic illusion*: a grid la
   FAQ, About, License and Terms. Just HTML. No interaction.
   :::
 
-  :::u-page-card{title="Report a bug" icon="i-lucide-bug" to="https://github.com" target="_blank" variant="subtle"}
+  :::u-page-card{title="Report a bug" icon="i-lucide-bug" to="https://github.com/Catventurist/sattumaa/issues" target="_blank" variant="subtle"}
   #description
   Link to GitHub Issues. The UGC is on *GitHub's* platform. GitHub is the DSA controller, not you. You're a hyperlink.
   :::
 
-  :::u-page-card{title="Contribute" icon="i-lucide-git-pull-request" to="https://github.com" target="_blank" variant="subtle"}
+  :::u-page-card{title="Contribute" icon="i-lucide-git-pull-request" to="https://github.com/Catventurist/sattumaa" target="_blank" variant="subtle"}
   #description
   Fork + PR. No email, no form, no account. The interaction is with GitHub.
   :::
 
-  :::u-page-card{title="Sponsor" icon="i-lucide-heart" to="https://github.com/sponsors" target="_blank" variant="subtle"}
+  :::u-page-card{title="Sponsor" icon="i-lucide-heart" to="https://github.com/sponsors/Catventurist" target="_blank" variant="subtle"}
   #description
   Link to GitHub Sponsors. Payment is processed by GitHub. You're not the merchant. You're a URL.
   :::
@@ -60,13 +60,11 @@ The law calls this order. Discordians call it an *aneristic illusion*: a grid la
 ::
 
 ::collapsible{name="Before you use Github"}
-
 **Don't commit anything sensitive.** No passwords, API keys, personal data or private documents.
 
 - **Public by default.** Anything pushed, including issues, PRs and old commits, is visible to everyone and stays in the history even if you delete it later.
 - **Not a backup.** The repo can be wiped, renamed, locked or taken down at any time, by us, by GitHub or by a legal request.
 - **Keep your own copy.** If your contribution matters to you, store it somewhere else too.
-
 ::
 
 ::note

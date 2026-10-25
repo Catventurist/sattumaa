@@ -9,6 +9,8 @@ An operating system interface with simple apps, built on **Nuxt UI** & _Bun_. Ve
 - Motion & CSS animations
 - Everything stored locally as state, no cookies or tracking.
 
+[Visit Sattumaa](sattumaa.vercel.app)
+
 ## Setup
 
 Make sure to install dependencies:

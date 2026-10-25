@@ -23,12 +23,17 @@ export default defineNuxtConfig({
     fallback: 'light',
     storage: 'sessionStorage'
   },
+  content: {
+    experimental: {
+      nativeSqlite: true
+    }
+  },
   ui: {
     theme: {
       colors: ['primary', 'secondary', 'success', 'info', 'warning', 'error', 'neutral']
     }
   },
-  compatibilityDate: '2026-10-22',
+  compatibilityDate: '2026-10-25',
   nitro: {
     vercel: {
       functions: {

@@ -27,6 +27,9 @@ pages:
   edit:
     title: Muokkaile
     description: Kokeile mihin muokkain kykenee.
+  courses:
+    title: Oppimista
+    description: Kursseja ja ikuista oppimista.
 
 common: 
   login: Sisäänkirjaus
@@ -1005,7 +1008,7 @@ chakra:
   title: Chakrojen energia
   description: Seitsemän chakran nykyinen energiataso.
   ariaLabel: Chakrojen energian ruusukaavio
-  ariaDescription: Ruusukaavio, joka näyttää seitsemän chakran energiatason asteikolla 0–9.
+  ariaDescription: Ruusukaavio, joka näyttää seitsemän chakran energiatason asteikolla 0-9.
   items:
     root:
       name: Muladhara
@@ -1183,3 +1186,75 @@ schrodinger:
     notice: Ilmoitus- ja toimenpidemenettely
     audit: Riippumaton auditointi
     risk: Systeeminen riskinarviointi
+
+learning:
+  menu:
+    courses: Kurssit
+    progress: Edistyminen
+    settings: Asetukset
+    toggle: Näytä tai piilota sivupalkki
+    home: Koti
+  open: Avaa
+  sections: Osiot
+  lesson: Oppitunti
+  notes: Muistiinpanot
+  yourNotes: Omat muistiinpanosi
+  hideNotes: Piilota muistiinpanot
+  courses:
+    web:
+      title: Verkkokehitys
+      description: Rakenna modernit verkkosivut Nuxtilla ja Vuella.
+      lessons:
+        intro:
+          title: Johdanto
+          body: Katso yleiskuva Nuxtista ja projektin rakenteesta.
+        components:
+          title: Komponentit
+          body: Rakenna uudelleenkäytettäviä käyttöliittymän osia Vue-komponenteilla.
+        routing:
+          title: Reititys
+          body: Luo sivuja ja siirry niiden välillä tiedostopohjaisella reitityksellä.
+    design:
+      title: Suunnittelu
+      description: Opi asettelu, värit ja typografia.
+      lessons:
+        layout:
+          title: Asettelu
+          body: Järjestä sisältö ruudukoilla, väleillä ja tasauksella.
+        color:
+          title: Väri
+          body: Valitse luettavia ja yhtenäisiä väripaletteja.
+        typography:
+          title: Typografia
+          body: Valitse fontit ja koot, jotka ohjaavat lukijaa.
+    data:
+      title: Data
+      description: Työskentele tietokantojen ja kyselyjen parissa.
+      lessons:
+        tables:
+          title: Taulut
+          body: Mallinna data tauluilla, riveillä ja sarakkeilla.
+        queries:
+          title: Kyselyt
+          body: Kysy dataltasi suodattimilla ja lajittelulla.
+        relations:
+          title: Relaatiot
+          body: Yhdistä taulut avaimilla ja liitoksilla.
+        description: Työskentele tietokantojen ja kyselyjen parissa.
+  previous: Edellinen
+  next: Seuraava
+  markDone: Merkitse valmiiksi
+  undo: Peru
+  showNotes: Näytä muistiinpanot
+  progress: '{done} / {total} oppituntia suoritettu'
+  progressPage:
+    overall: Kokonaisedistyminen
+    start: Aloita
+    continue: Jatka
+    reset: Nollaa edistyminen
+    notice: Edistymisesi ja muistiinpanosi säilyvät vain niin kauan kuin sivu on auki. Vie ne tiedostoon ja tuo ne takaisin seuraavalla kerralla.
+    export: Vie
+    import: Tuo
+    importDone: Edistyminen tuotu
+    importFailed: Tiedoston tuonti epäonnistui
+

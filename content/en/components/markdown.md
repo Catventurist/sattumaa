@@ -209,3 +209,7 @@ items:
 - `item`, `item-leading`, `item-label`, `item-trailing`: customize each legend row, receiving `item`, `index` and `percent`.
 
 
+## Data scenarios
+
+::kind
+::

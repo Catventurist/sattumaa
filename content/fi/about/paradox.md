@@ -12,7 +12,7 @@ navigation:
 |---|---|---|---|
 | 1 | :u-button{label="Tue meitä" size="xs" variant="outline"} | :u-badge{label="Maksu" color="success" variant="subtle"} | Oikeaa rahaa liikkuu. ALV pätee. Verotettava tapahtuma on ainakin todellinen. |
 | 2 | Vaihtokauppa (koodia palvelintilaa vastaan) | :u-badge{label="Palvelun markkina-arvo" color="warning" variant="subtle"} | Rahaa ei liikkunut. Verotettava tapahtuma on itse *vaihto*. |
-| 3 | Lahjavero saadusta avusta | :u-badge{label="Saadun avun arvo" color="warning" variant="subtle"} | Sait apua, joten maksat 19–33 %. Veronmaksaja on *vastaanottaja*. |
+| 3 | Lahjavero saadusta avusta | :u-badge{label="Saadun avun arvo" color="warning" variant="subtle"} | Sait apua, joten maksat 19-33 %. Veronmaksaja on *vastaanottaja*. |
 | 4 | Aikapankki :u-button{label="Kirjaa tovi" size="xs" variant="outline"} | :u-badge{label="Kirjanpitomerkintä" color="warning" variant="subtle"} | Työtä ei ole vielä saatu. Rahaa ei ole. *Tietokannan numero* on palkkaa. |
 | 5 | Naapuriavun raja | :u-badge{label="Riittävän pieni" color="error" variant="subtle"} | Oven pitäminen auki = ok. Lumen auraus = verotettava palvelu. Raja on se, että tarkastaja päättää. |
 | 6 | **Talkoot** :u-button{label="Osallistu talkoisiin" size="xs" variant="outline"} | :u-badge{label="Työsi + syömäsi makkara" color="error" variant="subtle"} | Autoit rakentamaan latoa viikonlopun ajan. Maksat veroa siitä, mitä ammattilainen veloittaisi, JA isäntä maksaa lahjaveroa sinulle tarjotusta ruoasta. *Sosiaalinen velka* (he auttavat minua myöhemmin) on vastike. Makkara on verotettava luovutus. |

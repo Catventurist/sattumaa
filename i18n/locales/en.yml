@@ -26,7 +26,10 @@ pages:
     description: Animated with CSS & Tailwind
   edit:
     title: Edit
-    description: Modify document how you like.
+    description: Modify document how you like
+  courses:
+    title: Learn
+    description: Course interface template.
 
 common: 
   login: Login
@@ -1182,3 +1185,74 @@ schrodinger:
     notice: Notice and action procedure
     audit: Independent audit
     risk: Systemic risk assessment
+
+learning:
+  menu:
+    courses: Courses
+    progress: Progress
+    settings: Settings
+    toggle: Toggle sidebar
+    home: Home
+  open: Open
+  sections: Sections
+  lesson: Lesson
+  notes: Notes
+  yourNotes: Your notes
+  hideNotes: Hide notes
+  courses:
+    web:
+      title: Web development
+      description: Build modern websites with Nuxt and Vue.
+      lessons:
+        intro:
+          title: Introduction
+          body: Get an overview of Nuxt and how a project is structured.
+        components:
+          title: Components
+          body: Build reusable pieces of interface with Vue components.
+        routing:
+          title: Routing
+          body: Create pages and navigate between them with file-based routing.
+    design:
+      title: Design
+      description: Learn layout, color and typography.
+      lessons:
+        layout:
+          title: Layout
+          body: Arrange content with grids, spacing and alignment.
+        color:
+          title: Color
+          body: Choose palettes that are readable and consistent.
+        typography:
+          title: Typography
+          body: Pick fonts and sizes that guide the reader.
+    data:
+      title: Data
+      description: Work with databases and queries.
+      lessons:
+        tables:
+          title: Tables
+          body: Model your data with tables, rows and columns.
+        queries:
+          title: Queries
+          body: Ask questions of your data with filters and sorting.
+        relations:
+          title: Relations
+          body: Connect tables with keys and joins.
+  previous: Previous
+  next: Next
+  markDone: Mark as done
+  undo: Undo
+  showNotes: Show notes
+  progress: '{done} of {total} lessons done'
+  progressPage:
+    overall: Overall progress
+    start: Start
+    continue: Continue
+    reset: Reset progress
+    notice: Your progress and notes are kept only while this page stays open. Export a file to keep them and import it next time.
+    export: Export
+    import: Import
+    importDone: Progress imported
+    importFailed: The file could not be imported
+

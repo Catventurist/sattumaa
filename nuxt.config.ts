@@ -26,6 +26,17 @@ export default defineNuxtConfig({
   content: {
     experimental: {
       nativeSqlite: true
+    },
+    build: {
+      markdown: {
+        highlight: {
+          theme: {
+            default: 'github-light',
+            dark: 'github-dark'
+          },
+          langs: ['ts', 'vue', 'md', 'mdc', 'bash', 'json', 'yaml']
+        }
+      }
     }
   },
   ui: {

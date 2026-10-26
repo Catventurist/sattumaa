@@ -12,7 +12,7 @@ navigation:
 |---|---|---|---|
 | 1 | :u-button{label="Support us" size="xs" variant="outline"} | :u-badge{label="The payment" color="success" variant="subtle"} | Actual money moves. VAT applies. At least the taxable event is real. |
 | 2 | Barter (code for hosting) | :u-badge{label="Market value of the service" color="warning" variant="subtle"} | No money moved. The *exchange* is the taxable event. |
-| 3 | Gift tax on receiving help | :u-badge{label="Value of help received" color="warning" variant="subtle"} | You got help, you owe 19–33%. The *recipient* is the taxpayer. |
+| 3 | Gift tax on receiving help | :u-badge{label="Value of help received" color="warning" variant="subtle"} | You got help, you owe 19-33%. The *recipient* is the taxpayer. |
 | 4 | Time bank :u-button{label="Log a tovi" size="xs" variant="outline"} | :u-badge{label="The ledger entry" color="warning" variant="subtle"} | No work received yet. No money. A *number in a database* is a wage. |
 | 5 | Naapuriapu boundary | :u-badge{label="Small enough" color="error" variant="subtle"} | Holding a door = fine. Shoveling snow = taxable service. The line is "the inspector decides." |
 | 6 | **Talkoot** :u-button{label="Join talkoot" size="xs" variant="outline"} | :u-badge{label="Your labor + the makkara you ate" color="error" variant="subtle"} | You helped build a barn for a weekend. You owe tax on "what a professional would charge" AND the host owes gift tax on the food they gave you. The *social debt* ("they'll help me later") is consideration. The makkara is a taxable transfer. |

@@ -41,6 +41,11 @@ const links = computed(() => [{
   label: t('pages.edit.title'),
   icon: 'i-lucide-pen',
   to: '/edit'
+},
+{
+  label: t('pages.courses.title'),
+  icon: 'i-lucide-book-up',
+  to: '/courses'
 }])
 
 useHead({

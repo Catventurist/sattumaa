@@ -128,7 +128,7 @@ items:
 - `items`: näytettävät tapahtumat.
 - `orientation`: `vertical` tai `horizontal`. Oletus on `vertical`.
 - `color`: teeman väri. Oletus on `primary`.
-- `size`: `3xs`–`3xl`. Oletus on `md`.
+- `size`: `3xs`-`3xl`. Oletus on `md`.
 - `reverse`: kääntää kohteiden järjestyksen.
 - `defaultValue`, `modelValue`: aktiivinen kohde, joka yhdistetään kunkin kohteen `value`-arvoon (määritetään `valueKey`-propsilla).
 - `valueKey`: kohteen avain, jota käytetään arvona. Oletus on `value`.
@@ -197,7 +197,7 @@ items:
 - `items`: piirrettävät segmentit. Jokainen vie osuuden palkista.
 - `max`: arvo, johon kaikkien kohteiden summa asettuu. Oletus on `100`.
 - `status`: näyttää edistymisarvojen summan.
-- `size`: `2xs`–`2xl`. Oletus on `md`.
+- `size`: `2xs`-`2xl`. Oletus on `md`.
 - `color`: teeman väri tai mikä tahansa CSS-väri. Oletus on `primary`.
 - `orientation`: `horizontal` tai `vertical`. Oletus on `horizontal`.
 - `as`: elementti, jona komponentti renderöidään. Oletus on `div`.
@@ -206,3 +206,33 @@ items:
 
 - `status`: mukautettu tilasisältö, saa `percent`-arvon.
 - `item`, `item-leading`, `item-label`, `item-trailing`: mukauta kutakin selitteen riviä. Ne saavat `item`-, `index`- ja `percent`-arvot.
+
+## Datatapaukset
+
+::kind
+---
+title: Helpota elämääsi
+knownTitle: Mitä tiedämme sinusta
+empty: Ei vielä mitään. Kokeile kytkintä.
+denial: Emme pisteytä sinua. Meillä on vain tosiasioita.
+moods:
+  - Tuntematon
+  - Tuttu
+  - Hyvin ymmärretty
+  - Ennustettava
+  - Täysin luettavissa
+perks:
+  - label: Nopeammat reitit
+    description: Jaa sijaintisi
+    infers: Koti, työpaikka, päivärytmi
+  - label: Löydä ystäväsi
+    description: Synkronoi yhteystietosi
+    infers: Sosiaalinen piiri, keneen luotat
+  - label: Hyvinvointivinkit
+    description: Yhdistä terveysdata
+    infers: Sairaudet, uni, stressi
+  - label: Älykkäät säästöt
+    description: Yhdistä pankkisi
+    infers: Tulot, tavat, luotettavuus
+---
+::
